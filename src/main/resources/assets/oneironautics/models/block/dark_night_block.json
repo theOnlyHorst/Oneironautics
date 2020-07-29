@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oneironautics:block/dark_night_block",
+    "up": "oneironautics:block/dark_night_block",
+    "north": "oneironautics:block/dark_night_block",
+    "south": "oneironautics:block/dark_night_block",
+    "east": "oneironautics:block/dark_night_block",
+    "west": "oneironautics:block/dark_night_block"
+  }
+}

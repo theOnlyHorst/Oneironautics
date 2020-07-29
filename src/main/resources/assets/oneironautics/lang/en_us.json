@@ -4,5 +4,8 @@
   "_comment": "Creative Tabs",
   "itemGroup.oneironautics": "Oneironautics",
 
+  "block.oneironautics.dark_night_block": "Dark Night Block",
+  "block.oneironautics.endless_stairs": "Endless Stairs",
+
   "message.dreamdiary": "Keep track of all your dreams!"
 }

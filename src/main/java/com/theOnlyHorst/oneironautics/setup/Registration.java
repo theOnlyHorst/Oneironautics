@@ -1,10 +1,13 @@
 package com.theOnlyHorst.oneironautics.setup;
 
+import com.theOnlyHorst.oneironautics.blocks.dreamblocks.DarkNightBlock;
+import com.theOnlyHorst.oneironautics.blocks.dreamblocks.EndlessStairs;
 import com.theOnlyHorst.oneironautics.items.DreamDiary;
-import com.theOnlyHorst.oneironautics.items.OEIItem;
 import net.minecraft.block.Block;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.entity.EntityType;
 import net.minecraft.inventory.container.ContainerType;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.common.ModDimension;
@@ -35,4 +38,10 @@ public class Registration {
     }
 
     public static final RegistryObject<DreamDiary> DREAM_DIARY = ITEMS.register("dreamdiary", DreamDiary::new);
+
+    public static final RegistryObject<DarkNightBlock> DARK_NIGHT_BLOCK = BLOCKS.register("dark_night_block", DarkNightBlock::new);
+    public static final RegistryObject<Item> DARK_NIGHT_BLOCK_ITEM = ITEMS.register("dark_night_block", () -> new BlockItem(DARK_NIGHT_BLOCK.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
+
+    public static final RegistryObject<EndlessStairs> ENDLESS_STAIRS = BLOCKS.register("endless_stairs", EndlessStairs::new);
+    public static final RegistryObject<Item> ENDLESS_STAIRS_ITEM = ITEMS.register("endless_stairs", () -> new BlockItem(ENDLESS_STAIRS.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
 }

@@ -24,7 +24,7 @@ public class BlockStates extends BlockStateProvider {
     }
 
     private void registerFirstBlock() {
-        ResourceLocation txt = new ResourceLocation(Oneironautics.MODID, "block/firstblock");
+        ResourceLocation txt = new ResourceLocation(Oneironautics.MODID, "block/dark_night_block");
         //BlockModelBuilder modelFirstblock = models().cube("firstblock", txt, txt, new ResourceLocation(Oneironautics.MODID, "block/firstblock_front"), txt, txt, txt);
         //BlockModelBuilder modelFirstblockPowered = models().cube("firstblock_powered", txt, txt, new ResourceLocation(Oneironautics.MODID, "block/firstblock_powered"), txt, txt, txt);
         /*orientedBlock(Registration.FIRSTBLOCK.get(), state -> {

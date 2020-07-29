@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "oneironautics:block/endless_stairs",
+    "top": "oneironautics:block/endless_stairs",
+    "side": "oneironautics:block/endless_stairs"
+  }
+}
